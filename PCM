@@ -1,0 +1,21 @@
+#include<stdio.h>
+//Name;Harsh Vernekar
+//UIN:251P102
+//Div:D
+//Branch:Computer Engineering
+int main()
+{
+    float Physics,Chemistry,Maths,Average;
+    
+    printf("Enter Your Marks In Physics:\n");
+    scanf("%f",&Physics);
+    printf("Enter Your Marks In Chemistry:\n");
+    scanf("%f",&Chemistry);
+    printf("Enter Your Marks In Maths:\n");
+    scanf("%f",&Maths);
+     Average=(Physics+Chemistry+Maths) /3;
+     (Average>=50) ?
+    printf("Eligible for Addmission\n"):
+    printf("Not Eligible For Admission\n");
+return 0;    
+}
